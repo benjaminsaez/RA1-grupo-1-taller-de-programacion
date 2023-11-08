@@ -5,6 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>REIK OFICIAL</title>
 
 
@@ -17,85 +18,101 @@
 
 </head>
 
-
+ <!------------------------- AQUI FALTA HACER RESPONSIVE ---------------------->
 <body class="fondo">
+<header>
 
-    <header class="cabezal fixed-top">
-    <div class="container">
-        <div class="row">
-            <div class="col-9">
-                <div class="superior">
-                    <a href="index.html"><img src="assets/img/reik.png" alt=""></a>
-                    <nav>
-                        <ul>
-                            <li><h2><a href="index.html">INICIO</a></h2></li>
-                            <li><h2><a href="ALBUMS.html">ALBUMS</a></h2></li>
-                            <li><h2><a href="BIO.html">BIO</a></h2></li>
-                            <li><h2><a href="HITS.html">HITS</a></h2></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
-    </header>
-    <section class="carousel-principal">
+    <a href="index.html" class="logo">
+        <img src="assets/img/reik.png" alt="logo de reik" class="logo-img">
+    </a>
+    <nav>
+        <ul>
+            <li><a href="HITS.html" class="nav-link">Hits</a></li>
+            <li><a href="BIO.html" class="nav-link">Bio</a></li>
+            <li><a href="ALBUMS.html" class="nav-link">Albums</a></li>
+            <li><a href="index.html" class="nav-link">Inicio</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="carousel-principal">
 
 <div id="carouselExample" class="carousel slide">
 
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="assets/img/reik%20rosa.png" class="d-block w-100" alt="...">
-        </div>
-
-        <div class="carousel-item">
-            <img src="assets/img/reik-principaal.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="assets/img/reik%20celeste.png" class="d-block w-100" alt="...">
-        </div>
+<div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="assets/img/reik%20rosa.png" class="d-block w-100" alt="">
     </div>
 
-
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-            data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-            data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
+    <div class="carousel-item">
+        <img src="assets/img/reik-principaal.png" class="d-block w-100" alt="">
+    </div>
+    <div class="carousel-item">
+        <img src="assets/img/reik%20celeste.png" class="d-block w-100" alt="">
+    </div>
 </div>
 
-    </section>
 
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+        data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+        data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+</button>
+</div>
 
-    <div class="container-fluid">
-        <div class="row">
-    <div class="col-4">
-        <h4>Sobre nosotros</h4>
-        <p>nosotros somos reik y texto</p>
-    </div>
+</section>
 
-        <div class="col-4">
-        <h4>Salto a la fama</h4>
-        <p>año y motivo por el que salto a la fama</p>
-    </div>
+<section class="texto-imagen">
+<div class="container text-center">
+    <div class="row carta">
+        <div class="col-md-4 col-12">
+            <div class="cuadro-1">
+            <h4 style="color: white">Sobre nosotros</h4>
+            <p>Reik es una banda de pop mexicana reconocida por su música romántica y baladas.</p>
+        </div>
+        </div>
 
-        <div class="col-4">
-        <h4>Integrantes</h4>
-        <ul>
-            <li>
-                <p>Jesus Navarro</p>
-                <p>Julio Ramirez Eguia</p>
-                <p>Bibi Marin</p>
-            </li>
-        </ul>
-         </div>
+        <div class="col-md-4 col-12">
+            <div class="cuadro-2">
+            <h4 style="color: white">Salto a la fama</h4>
+            <p>Reik saltó a la fama en la década de 2000 con su álbum debut en 2005, consolidándose como una influyente banda de pop latino.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-12">
+            <div class="cuadro-3">
+            <h4 style="color: white">Integrantes</h4>
+                    <p>Jesus Alberto Navarro Rosas, Julio Ramirez Eguia,
+                    Gilberto Marin Espinoza</p>
         </div>
     </div>
+</div>
+</div>
+</section>
+    <!--------------------------ESTE ES EL FOOTER------------------------------->
+
+    <footer>
+        <div class="container">
+            <div class="redes">
+                <a href="https://www.instagram.com/reikmx/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="><img src="assets/img/INSTA.png" alt="" width="30" height="30" ></a>
+                <a href="https://www.facebook.com/Reik"><img src="assets/img/FACE.png" alt="" width="30" height="30"  ></a>
+                <a href="https://open.spotify.com/artist/0vR2qb8m9WHeZ5ByCbimq2?si=IINxzRv0T_CJTxXh48vpoQ"><img src="assets/icons/spotify.webp" alt="" width="30" height="30"></a>
+                <a href="https://www.tiktok.com/@reikmx?_t=8hA77LGrUlp&_r=1"><img src="assets/img/tik%20tok.png" alt="" width="30" height="30"></a>
+            </div>
+            <h3>REIK</h3>
+            <p>© 2023 Sony Music Entertainment. Todos lo derechos reservados.</p>
+
+
+        </div>
+    </footer>
+
+
+
+
 
 
     <script src="assets/js/bootstrap/js/bootstrap.bundle.js"></script>

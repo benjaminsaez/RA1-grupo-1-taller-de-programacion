@@ -1,81 +1,178 @@
-:root {
+@media (max-width:768px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 20px 0 20px 0;
+    }
 
 }
-
-
 
 /*pagina principal*/
 .body {
     margin: 0;
-    padding: 0;
+    display: flex;
+
 }
 .fondo {
-    background: url("../img/reik3.jpg");
-    height: 100%;
+    background-image: url("../img/reik3.jpg");
+
 }
 
+/*texto pagina principal*/
+
 a {
+    color: black;
     text-decoration: none;
-    font-size: 18px;
     font-family: 'Source Code Pro', monospace;
+
 }
 
 p {
     text-decoration: none;
+    font-family: 'Source Cod e Pro', monospace;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    background-color: #000000;
+    align-items: center;
+    padding: 20px;
+
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 60px;
+    width: 150px;
+    margin-left: 80px;
+    align-items: center;
+}
+nav{
+    list-style-type: none;
+    padding-right: 110px;
+}
+
+nav li {
+
+    display: flex;
+    float: right;
+    padding: 0 30px 0 30px;
+    list-style-type: none;
+    font-weight: 600;
+    color: white;
+}
+
+
+nav li:hover {
+    color: rgba(225, 111, 122, 0.66);
+
+}
+
+.carousel{
+    display: flex;
+    align-items: center;
+    padding: 40px 120px 30px 120px ;
+}
+
+
+.cuadro-1 {
+    border: 100px;
+    background-color: rgba(222, 13, 31, 0.2);
+}
+
+.cuadro-2 {
+    border: 100px;
+    background-color: rgba(255, 115, 0, 0.18);
+
+}
+
+.cuadro-3 {
+    border: 100px;
+    background-color: rgba(222, 13, 31, 0.2);
+}
+
+
+.texto-imagen {
+    margin-top: 20px;
+}
+
+/* ---------------- ESTE ES EL FOOTER -----------*/
+
+footer{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+    width: 100%;
+}
+footer h3{
+    margin-top: 10px;
+}
+footer p{
     font-family: 'Source Code Pro', monospace;
+    font-size: 12px;
+    padding-top: 10px;
+}
+footer a{
+    margin: 0 15px 10px 15px;
+}
+footer h3 {
     color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
 }
 
-h4 {
-    text-decoration: none;
-    color: white;
+
+
+/*------------ HASTA ACA ES EL FOOTER--------*/
+.card {
+    transition: transform 0.1s;
 }
 
-li {
-    list-style: none;
-    padding-top: 12px;
+.card:hover {
+    transform: scale(1.1);
 }
 
-.container{
-    width: 90%;
+
+
+/*-----------------------BIOOOOOO-------------------------*/
+
+.contenedor {
+    background-color: rgba(0, 0, 0, 0.71);
+    width: 100%;
     max-width: 1280px;
     margin: auto;
-}
-header{
-    background-size: cover;
-}
-.cabezal {
-    background-color: #000000;
-
-}
-.cabezal .row{
-    display: flex;
-    padding-top: 35px;
-
-}
-header .superior{
-    display: flex;
-    align-items: center;
-}
-
-nav ul{
+    padding: 20px 20px 20px 20px;
     display: flex;
 }
 
-nav ul li{
-    margin: 0 80px;
-}
-nav ul li a{
+.contenedor h1 {
     color: white;
-    text-decoration: none;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
 
+/*----------HITS----------*/
+.si{
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(0, 0, 0, 0.78);
 }
-.carousel{
-    align-items: center;
-    padding-left: 120px;
-    padding-right: 120px;
-    padding-top: 160px;
+.si p{
+    padding: 10px 10px 10px 10px
 }
-.text-box {
-vertical-align: top;
+.container h3{
+    color: white;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+
+.table tr{
+    padding-top: 100px;
 }
